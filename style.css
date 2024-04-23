@@ -447,6 +447,51 @@ option {
 }
 
 
+
+.section3>#box{
+    z-index: 10;
+    position: fixed;
+    top: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 380px;
+    height: 310px;
+    background-color: var(--text-color);
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #F7F7F7;
+}
+#box-heading{
+    font-family: 'kanit';
+    font-weight: 500;   
+    margin: 18px 0px 25px 0px;
+    color: var(--heading-color);
+}
+
+#note-input{
+    border: 1px solid var(--btn-color);
+    background-color: transparent;
+    border-radius: 5px;
+    width: 250px;
+    height: 38px;
+    padding-left: 18px;
+    outline: none;
+    color: var(--heading-color);
+}
+#cancel{
+    cursor: pointer;
+    width: 110px;
+    height: 38px;
+    margin: 128px 150px 0px 0px;
+    border: 1px solid #6C63FF;
+    border-radius: 8px;
+    color: var(--btn-color);
+    font-weight: 600;
+    background-color: transparent;
+}
+
+
 #content{
     margin: 30px 90px;
     width: 100px;
@@ -510,21 +555,20 @@ option {
     top: -35px;
 }
 #header{
-    width: 350px;
+    width: 300px;
     margin: auto;
     text-align: center;
 }
 
 #section-2{
-    width: 350px;
+    width: 300px;
     /* height: auto; */
     margin: auto;
-    display: inline;
 }
 
 
 #content{
-    margin: 30px 50px;
+    margin: 30px 0px;
     width: 200px;
     height: auto;
 }
@@ -537,6 +581,50 @@ option {
     padding: 10px;
     border-bottom: 1px solid var(--btn-color);
 }
+
+.section3>#box{
+    z-index: 10;
+    position: fixed;
+    top: 100px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 280px;
+    height: 280px;
+    background-color: var(--text-color);
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #F7F7F7;
+}
+#box-heading{
+    font-family: 'kanit';
+    font-weight: 500;   
+    margin: 18px 0px 25px 0px;
+    color: var(--heading-color);
+}
+
+#note-input{
+    border: 1px solid var(--btn-color);
+    background-color: transparent;
+    border-radius: 5px;
+    width: 200px;
+    height: 38px;
+    padding-left: 18px;
+    outline: none;
+    color: var(--heading-color);
+}
+#cancel{
+    cursor: pointer;
+    width: 110px;
+    height: 38px;
+    margin: 110px 50px 0px 0px;
+    border: 1px solid #6C63FF;
+    border-radius: 8px;
+    color: var(--btn-color);
+    font-weight: 600;
+    background-color: transparent;
+}
+
 
 #detective-text{
     font-family: 'kanit';
