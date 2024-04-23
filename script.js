@@ -394,3 +394,12 @@ filterSearch.addEventListener('change',function(){  // when the dropdown box val
     })
   }
 });
+
+document.getElementById('note-input').addEventListener('input', function (event) {
+  const validPattern = /^[a-zA-Z0-9 ]*$/;
+  const inputValue = event.target.value;
+
+  if (!validPattern.test(inputValue)) {
+      event.target.value = inputValue.slice(0, -1);
+  }
+});
