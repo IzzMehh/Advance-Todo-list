@@ -267,11 +267,12 @@ function changeInputType(divToEdit){
     document.getElementById(`span${divId}`).innerHTML = `<ion-icon id="done${divId}" style="color:green; cursor: pointer;position: relative;top: 9px;font-size:27px" name="checkmark-outline"></ion-icon> <ion-icon id="undo${divId}" style="color:red;cursor: pointer;position: relative;top: 8px;font-size:23px" name="close-circle-outline"></ion-icon>`;
     input.setAttribute('type','text');
     input.value = spanText;
-    input.style.width = '325px';
+    input.style.width = '60%';
     input.style.borderColor = '#EC3D3E';
     input.style.paddingLeft = '20px'
     input.style.fontSize = '10px'
     input.style.cursor= 'auto';
+    input.style.color = 'var(--heading-color)'
     input.style.transition = 'all 1s ease-in-out';
     input.style.marginLeft = '75px';
     input.focus();
@@ -286,7 +287,7 @@ function changeInputType(divToEdit){
       localStorage.setItem('Task', JSON.stringify(task)); // update the div with new name in "Task" key.
       input.style.width = '';
       input.style.cursor= 'pointer';
-      input.style.width = '16px'
+      input.style.width = '16px'  
       input.style.height='16px';
     input.style.borderColor = 'var(--btn-color)';
       input.setAttribute('type','checkbox');
