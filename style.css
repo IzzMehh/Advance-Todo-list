@@ -124,7 +124,7 @@ option {
 
 #add-btn{
     position: fixed;
-    top: 550px;
+    top: 500px;
     left: 72%;
     height: 50px;
     width: 50px;
@@ -266,7 +266,7 @@ option {
 
 @media screen and (max-width:1260px) {
  #add-btn{
-    left: 77%;
+    left: 75%;
  }   
 }
 
@@ -279,7 +279,7 @@ option {
 
 @media screen and (max-width:930px) {
     #add-btn{
-       left: 85%;
+       left: 83%;
     }   
    }
 
@@ -289,7 +289,8 @@ option {
         width: 100%;
     }
     #add-btn{
-        left: 80%;
+        top: 500px;
+        left: 82%;
      }  
      .main-heading{width: 100%;
         padding: 40px 0px 18px;
@@ -326,7 +327,7 @@ option {
 
 
 #content{
-    margin: 30px 100px;
+    margin: 30px auto;
     width: 520px;
     height: auto;
 }
@@ -381,12 +382,11 @@ option {
     width: 500px;
     height: auto;
     margin: auto;
-    text-align: center;
 }
 
 
 #content{
-    margin: 30px 100px;
+    margin: 30px 30px;
     width: 200px;
     height: auto;
 }
@@ -444,14 +444,22 @@ option {
     width: 420px;
     height: auto;
     margin: auto;
-    text-align: center;
 }
 
 
 #content{
-    margin: 30px 100px;
-    width: 200px;
+    margin: 30px 90px;
+    width: 100px;
     height: auto;
+}
+.work-list-box{
+    font-family: 'kanit';
+    font-size: medium;
+    color: var(--heading-color);
+    margin: 0px -50px;
+    width: 300px;
+    padding: 10px;
+    border-bottom: 1px solid var(--btn-color);
 }
 
 #detective-text{
@@ -516,9 +524,18 @@ option {
 
 
 #content{
-    margin: 30px 100px;
+    margin: 30px 50px;
     width: 200px;
     height: auto;
+}
+.work-list-box{
+    font-family: 'kanit';
+    font-size: medium;
+    color: var(--heading-color);
+    margin: 0px 50px;
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px solid var(--btn-color);
 }
 
 #detective-text{
